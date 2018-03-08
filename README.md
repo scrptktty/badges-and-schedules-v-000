@@ -26,7 +26,7 @@ You just realized that you also need to give each speaker a room assignment. Wri
   * *Hint*: Think about how you will assign a room number to each person. Array items are indexed, meaning that you can access each element by its index number. When you are iterating through an array, you can keep track of the index number of the current iteration using an enumerator method called [`each_with_index`](http://ruby-doc.org/core-2.2.2/Enumerable.html#method-i-each_with_index).
   * *Hint*: Remember that the return value of the `each` method is the original array that you are calling it on. How can you collect or store the room assignment strings you are creating as you iterate and return them at the end of your `assign_rooms` method? Google or use [Ruby Docs](http://docs.ruby-lang.org/en/2.0.0/Enumerable.html) to find the correct method.
 
-Now you have to tell the printer what to print. Create a method called `printer` that will output first the results of the `batch_badge_creator` method and then of the `assign_rooms` method to the screen.
+Now you have to tell the printer what to print. Create a method called `printer` that will output first the results of the `batch_badge_creator` method and then one of the `assign_rooms` method to the screen.
   * *Hint*: Remember that methods can call other methods. If the return value of `assign_rooms` is an array of room assignments, how can you print out each assignment? You'll need to iterate over your array of room assignments in order to `puts` out each individual assignment.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/badges-and-schedules' title='Badges and Schedules'>Badges and Schedules</a> on Learn.co and start learning to code for free.</p>
